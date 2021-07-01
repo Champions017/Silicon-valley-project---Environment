@@ -1018,7 +1018,7 @@ if(gameState === end){
   fill("gold")
   textSize(30)
   stroke(rgb(66.67,43.35,22.35))
-  text("Amazing! You have collected all the badges! \n\n\n\n\nIf you want to play again, you can press 'r' to retry!",width/2,height/7)
+  text("Amazing! You have collected all the badges! \n\n\n\n\nIf you want to play again, you can press 'r' to retry!\n\nTry to do this in real life just like this game!",width/2,height/7)
 
   if(keyDown("r")){
     reset();
